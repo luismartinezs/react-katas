@@ -1,0 +1,11 @@
+main {
+ 
+}
+
+.main__container {
+  max-width: 700px;
+  margin: 50px 30px ($footer-height + 50px) 30px;
+  @media (min-width: $small-width) {
+    margin: 50px 80px ($footer-height + 50px) 80px;
+  }
+}

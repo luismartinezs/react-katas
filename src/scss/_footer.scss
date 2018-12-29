@@ -1,0 +1,41 @@
+footer {
+  height: $footer-height;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  background-color: $color-secondary;
+  color: $text-color;
+  padding: 0;
+  ul {
+    padding: 0;
+    margin: 0 20px 0 0;
+    list-style: none;
+    color: $text-color;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.footer__container {
+  margin: 40px 20px 40px 20px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+$bottom-bar--height: 30px;
+
+.bottom-bar {
+  height: $bottom-bar--height;
+  // margin-top: $bottom-bar--height;
+  background-color: $color-secondary-light;
+  width: 100%;
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+  }
+}

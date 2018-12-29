@@ -1,0 +1,27 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: $font-secondary;
+  background: $color-primary;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  * {
+    box-sizing: inherit;
+  }
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: $font-primary;
+    margin: 0;
+  }
+}
+
+a {
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+header {
+  background-color: $color-secondary;
+  padding: 20px;
+  nav {
+    color: $text-color;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        padding: 8px 10px 8px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      li:hover {
+        background-color: $text-color;
+        color: $color-secondary;
+      }
+    }
+  }
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: inherit;
+}

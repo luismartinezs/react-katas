@@ -1,0 +1,3 @@
+- Sketch basic design for home layout
+- Create html and css for home
+- Repeat / create html + css of all other pages (simple layout)
