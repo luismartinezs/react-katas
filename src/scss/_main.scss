@@ -1,11 +1,19 @@
 main {
- 
-}
-
-.main__container {
-  max-width: 700px;
-  margin: 50px 30px ($footer-height + 50px) 30px;
-  @media (min-width: $small-width) {
-    margin: 50px 80px ($footer-height + 50px) 80px;
+  margin: 50px 0 ($footer-height + 50px) 0;
+  .main__container {
+    max-width: 700px;
+    margin: 0 30px 0 30px;
+    @media (min-width: $small-width) {
+      margin: 0 80px 0 80px;
+    }
+    .main__title {
+      margin-bottom: 20px;
+    }
+    .main__subtitle {
+      margin-bottom: 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
   }
 }
