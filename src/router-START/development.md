@@ -1,3 +1,0 @@
-- Sketch basic design for home layout OK
-- Create html and css for home OK
-- Repeat / create html + css of all other pages (simple layout) OK

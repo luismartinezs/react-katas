@@ -14,6 +14,7 @@ export default class About extends Component {
           <div className="d-flex about__bio-container">
             <img
               className="avatar"
+              alt="avatar"
               src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairShavedSides&accessoriesType=Sunglasses&facialHairType=MoustacheMagnum&facialHairColor=BlondeGolden&clotheType=GraphicShirt&clotheColor=Black&graphicType=Diamond&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
             />
             <div>
