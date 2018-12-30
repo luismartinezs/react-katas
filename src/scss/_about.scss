@@ -1,0 +1,28 @@
+.about__container {
+  max-width: 700px;
+  margin: 0 30px 0 30px;
+  @media (min-width: $small-width) {
+    margin: 0 80px 0 80px;
+  }
+  .main__title {
+    margin-bottom: 20px;
+  }
+  .main__subtitle {
+    margin-bottom: 20px;
+  }
+  .about__bio-container {
+    flex-direction: column;
+    align-items: center;
+    .avatar {
+      @media (min-width: $medium-width) {
+        width: 200px;
+        height: auto;
+        margin-right: 20px;
+      }
+    }
+    @media (min-width: $medium-width) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+}

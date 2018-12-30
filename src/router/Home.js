@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <Fragment>
         <Header />
-        <MainContent />
+        <HomeContent />
         <Footer />
       </Fragment>
     );
@@ -18,7 +18,7 @@ export default class Home extends Component {
 
 
 
-class MainContent extends Component {
+class HomeContent extends Component {
   render() {
     return (
       <main className="d-flex justify-center align-center">

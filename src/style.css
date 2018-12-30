@@ -326,3 +326,86 @@ main .main__container section {
     margin-left: 15px;
   }
 }
+
+.about__container {
+  max-width: 700px;
+  margin: 0 30px 0 30px;
+}
+@media (min-width: 540px) {
+  .about__container {
+    margin: 0 80px 0 80px;
+  }
+}
+.about__container .main__title {
+  margin-bottom: 20px;
+}
+.about__container .main__subtitle {
+  margin-bottom: 20px;
+}
+.about__container .about__bio-container {
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+@media (min-width: 720px) {
+  .about__container .about__bio-container .avatar {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 720px) {
+  .about__container .about__bio-container {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: start;
+        align-items: flex-start;
+  }
+}
+
+.contact__container {
+  max-width: 700px;
+  margin: 0 30px 0 30px;
+}
+@media (min-width: 540px) {
+  .contact__container {
+    margin: 0 80px 0 80px;
+  }
+}
+.contact__container .main__title {
+  margin-bottom: 20px;
+}
+.contact__container .main__subtitle {
+  margin-bottom: 20px;
+}
+.contact__container form {
+  width: 100%;
+}
+.contact__container form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.contact__container form input, .contact__container form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-style: italic;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 2px;
+}
+.contact__container form input[type=submit] {
+  text-transform: uppercase;
+  font-style: normal;
+  padding: 10px 5px 10px 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #141414;
+  color: #ebebeb;
+}
+.contact__container form input[type=submit]:hover {
+  background-color: #ebebeb;
+  color: #141414;
+  cursor: pointer;
+}
