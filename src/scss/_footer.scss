@@ -27,10 +27,8 @@ footer {
 }
 
 $bottom-bar--height: 30px;
-
 .bottom-bar {
-  height: $bottom-bar--height;
-  // margin-top: $bottom-bar--height;
+  height: $bottom-bar--height; // margin-top: $bottom-bar--height;
   background-color: $color-secondary-light;
   width: 100%;
   p {

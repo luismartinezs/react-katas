@@ -1,10 +1,5 @@
-// .background-cover {
-//   background: url(https://picsum.photos/1680/918/?random) center no-repeat;
-//   background-size: cover;
-// }
-
 .text-shadow {
-  text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .d-flex {
@@ -20,7 +15,7 @@
 }
 
 .wrap {
-  flex-wrap: wrap;   
+  flex-wrap: wrap;
 }
 
 .d-block {
@@ -111,10 +106,10 @@
 
 @media screen and (min-width: 960px) {
   .desktop {
-      display: initial;
+    display: initial;
   }
   .mobile {
-      display: none;
+    display: none;
   }
 }
 

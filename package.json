@@ -7,6 +7,7 @@
     "grunt-contrib-watch": "^1.1.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
@@ -24,7 +25,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "Katas to practice advanced React concepts and features",
   "main": "Gruntfile.js",
   "devDependencies": {
     "grunt": "^1.0.3"

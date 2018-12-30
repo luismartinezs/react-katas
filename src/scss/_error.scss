@@ -1,0 +1,10 @@
+.error-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  @media (min-width: $medium-width) {
+    margin: 30px auto;
+  }
+  h1 {
+    margin: 0 10px 0 10px;
+  }
+}
