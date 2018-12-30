@@ -17,32 +17,26 @@ body * {
 
 h1 {
   font-family: "helvetica neue", sans-serif;
-  margin: 0;
 }
 
 h2 {
   font-family: "helvetica neue", sans-serif;
-  margin: 0;
 }
 
 h3 {
   font-family: "helvetica neue", sans-serif;
-  margin: 0;
 }
 
 h4 {
   font-family: "helvetica neue", sans-serif;
-  margin: 0;
 }
 
 h5 {
   font-family: "helvetica neue", sans-serif;
-  margin: 0;
 }
 
 h6 {
   font-family: "helvetica neue", sans-serif;
-  margin: 0;
 }
 
 a {
@@ -199,28 +193,6 @@ header nav ul li:hover {
   color: inherit;
 }
 
-main {
-  margin: 50px 0 230px 0;
-}
-main .main__container {
-  max-width: 700px;
-  margin: 0 30px 0 30px;
-}
-@media (min-width: 540px) {
-  main .main__container {
-    margin: 0 80px 0 80px;
-  }
-}
-main .main__container .main__title {
-  margin-bottom: 20px;
-}
-main .main__container .main__subtitle {
-  margin-bottom: 20px;
-}
-main .main__container section {
-  margin-bottom: 50px;
-}
-
 footer {
   height: 180px;
   width: 100vw;
@@ -258,6 +230,80 @@ footer p {
   margin: 0;
   padding: 0;
   font-size: 0.9em;
+}
+
+main {
+  margin: 50px 0 230px 0;
+}
+main .main__container {
+  max-width: 700px;
+  margin: 0 30px 0 30px;
+}
+@media (min-width: 540px) {
+  main .main__container {
+    margin: 0 80px 0 80px;
+  }
+}
+main .main__container .main__title {
+  margin-bottom: 20px;
+}
+main .main__container .main__subtitle {
+  margin-bottom: 20px;
+}
+main .main__container section {
+  margin-bottom: 50px;
+}
+
+.projects__container {
+  max-width: 700px;
+  margin: 0 30px 0 30px;
+}
+@media (min-width: 540px) {
+  .projects__container {
+    margin: 0 80px 0 80px;
+  }
+}
+.projects__container .main__title {
+  margin-bottom: 20px;
+}
+.projects__container .main__subtitle {
+  margin-bottom: 20px;
+}
+.projects__container article {
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 720px) {
+  .projects__container article {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+.projects__container article .project__description {
+  order: 2;
+}
+.projects__container article .project__description h2 {
+  margin-top: 0;
+}
+
+.img-left {
+  order: 3;
+}
+@media (min-width: 720px) {
+  .img-left {
+    order: 1;
+    margin-right: 15px;
+  }
+}
+
+.img-right {
+  order: 3;
+}
+@media (min-width: 720px) {
+  .img-right {
+    margin-left: 15px;
+  }
 }
 
 /*# sourceMappingURL=style-transpiled.css.map */

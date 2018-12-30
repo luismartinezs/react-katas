@@ -1,0 +1,43 @@
+.projects__container {
+  max-width: 700px;
+  margin: 0 30px 0 30px;
+  @media (min-width: $small-width) {
+    margin: 0 80px 0 80px;
+  }
+  .main__title {
+    margin-bottom: 20px;
+  }
+  .main__subtitle {
+    margin-bottom: 20px;
+  }
+  article {
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: $medium-width) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    .project__description {
+      order: 2;
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.img-left {
+  order: 3;
+  @media (min-width: $medium-width) {
+    order: 1;
+    margin-right: 15px;
+  }
+}
+
+.img-right {
+  order: 3;
+  @media (min-width: $medium-width) {
+    margin-left: 15px;
+  }
+}
