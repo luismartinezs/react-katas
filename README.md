@@ -22,4 +22,4 @@ If for some reason you need to regenerate the CSS file /src/style.css (in princi
 
 ## Issues
 
-If have any trouble, please open an issue in github
+If have any trouble, please open an issue in github: [https://github.com/luismartinezs/react-katas](https://github.com/luismartinezs/react-katas)
