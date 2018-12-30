@@ -1,20 +1,6 @@
-import React, { Component, Fragment } from "react";
-import Header from "./shared/header";
-import Footer from "./shared/footer";
+import React, { Component } from "react";
 
 export default class Contact extends Component {
-  render() {
-    return (
-      <Fragment>
-        <Header />
-        <ContactContent />
-        <Footer />
-      </Fragment>
-    );
-  }
-}
-
-class ContactContent extends Component {
   render() {
     return (
       <main className="d-flex justify-center align-center">
