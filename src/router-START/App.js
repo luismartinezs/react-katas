@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
-import Header from './shared/header';
-import Footer from './shared/footer';
+import Header from './shared/Header';
+import Footer from './shared/Footer';
 import Home from './Home';
 import Projects from './Projects';
 import About from './About';
@@ -11,7 +11,7 @@ export default class App extends Component {
     return (
       <Fragment>
         <Header />
-        <Contact />
+        <Home />
         <Footer />
       </Fragment>
     );

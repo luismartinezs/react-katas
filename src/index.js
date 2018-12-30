@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './router/App';
-import Home from './router/Home';
-import Projects from './router/Projects';
-import About from './router/About';
-import Contact from './router/Contact';
+import App from './router-START/App';
+// import Home from './router-START/Home';
+// import Projects from './router-START/Projects';
+// import About from './router-START/About';
+// import Contact from './router-START/Contact';
 import * as serviceWorker from './serviceWorker';
 import './style.css';
 

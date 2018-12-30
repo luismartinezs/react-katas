@@ -29,7 +29,7 @@ class MenuLink extends Component {
   render() {
     return (
       <li>
-        <a className="navbar__link" href={this.props.href}>
+        <a className="navbar__link" href={this.props.href} onClick={(e) => e.preventDefault()}>
           {this.props.name}
         </a>
       </li>
