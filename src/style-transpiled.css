@@ -254,6 +254,28 @@ main .main__container section {
   margin-bottom: 50px;
 }
 
+.main__wrapper {
+  margin: 20px 20px 20px 20px;
+}
+@media (min-width: 540px) {
+  .main__wrapper {
+    margin: 0 80px 0 80px;
+  }
+}
+.main__wrapper .main__list-wrapper {
+  max-width: 700px;
+}
+.main__wrapper .main__list-wrapper h1 {
+  margin-bottom: 25px;
+}
+.main__wrapper .main__list-wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+.main__wrapper .main__list-wrapper ul li {
+  margin-bottom: 20px;
+}
+
 .projects__container {
   max-width: 700px;
   margin: 0 30px 0 30px;

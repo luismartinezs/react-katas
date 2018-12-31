@@ -17,7 +17,7 @@ export default class ErrorBoundary extends Component {
       return (
         <div className="error-wrapper d-flex justify-center text-center">
           <h1>
-            The page could not load for some reason <span role="img" aria-label="Dizzy face">😵</span>
+            There was a problem retrieving the data <span role="img" aria-label="Dizzy face">😵</span>
             <br />
             Check your internet connection or try again later!
           </h1>

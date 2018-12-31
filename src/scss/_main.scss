@@ -17,3 +17,23 @@ main {
     }
   }
 }
+
+.main__wrapper {
+  margin: 20px 20px 20px 20px;
+  @media (min-width: $small-width) {
+    margin: 0 80px 0 80px;
+  }
+  .main__list-wrapper {
+    max-width: 700px;
+    h1 {
+      margin-bottom: 25px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
