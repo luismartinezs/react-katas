@@ -263,9 +263,11 @@ main .main__container section {
   }
 }
 .main__wrapper .main__list-wrapper {
-  max-width: 700px;
+  width: 100%;
+  max-width: 400px;
 }
 .main__wrapper .main__list-wrapper h1 {
+  text-align: center;
   margin-bottom: 25px;
 }
 .main__wrapper .main__list-wrapper ul {
@@ -274,6 +276,13 @@ main .main__container section {
 }
 .main__wrapper .main__list-wrapper ul li {
   margin-bottom: 20px;
+}
+.main__wrapper .main__list-wrapper hr {
+  background-color: #141414;
+  border: 1px solid #141414;
+}
+.main__wrapper .main__list-wrapper .list__item p {
+  margin-top: 0;
 }
 
 .projects__container {

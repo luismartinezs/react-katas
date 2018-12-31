@@ -24,8 +24,10 @@ main {
     margin: 0 80px 0 80px;
   }
   .main__list-wrapper {
-    max-width: 700px;
+    width: 100%;
+    max-width: 400px;
     h1 {
+      text-align: center;
       margin-bottom: 25px;
     }
     ul {
@@ -34,6 +36,15 @@ main {
       li {
         margin-bottom: 20px;
       }
+    }
+    hr {
+      background-color: $color-secondary;
+      border: 1px solid $color-secondary;
+    }
+    .list__item {
+      p {
+        margin-top: 0;
+      } 
     }
   }
 }
