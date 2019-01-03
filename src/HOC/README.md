@@ -12,7 +12,6 @@ The component `FilteredList` provided is too complex and is doing too many thing
 - There should be one stateless functional component `renderDisplayList` in charge of rendering a list of objects passed as props. This component should NOT filter the list or manipulate it, except by getting the text to display on screen.
 - There should be a HOC `withTransformProps` that handles the logic of filtering a list of items based on a filtering value.
 - There should be a component `FilteredList` that is the enhanced component resulting from wrapping the `renderDisplayList` component with `withTransformProps`
-- Wrap the display name of the wrapped component. So if your higher-order component is named `withTransformProps`, and the wrapped component’s display name is `renderDisplayList`, use the display name `withTransformProps(renderDisplayList)` (See [this](https://reactjs.org/docs/higher-order-components.html#convention-wrap-the-display-name-for-easy-debugging))
 
 ## Solution:
 

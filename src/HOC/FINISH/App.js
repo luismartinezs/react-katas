@@ -32,9 +32,7 @@ export default class Switch extends React.Component {
 
 const withFilterProps = BaseComponent => ({ list, side }) => {
   const transformedProps = list.filter(char => char.side === side);
-  const WithFilterProps = <BaseComponent list={transformedProps} />;
-  // WithFilterProps.displayName = `WithFilterProps(${getDisplayName(BaseComponent)})`
-  return WithFilterProps;
+  return <BaseComponent list={transformedProps} />;
 };
 
 const RenderDisplayList = ({ list }) => (
