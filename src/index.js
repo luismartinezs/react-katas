@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // Change next line to visualize the exercise that you're working on
-import App from './katas/windowing/START/App';
+import App from './katas/windowing/FINISH/App';
 import * as serviceWorker from './serviceWorker';
 import './style.css';
 
