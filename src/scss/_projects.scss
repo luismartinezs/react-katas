@@ -10,6 +10,10 @@
   .main__subtitle {
     margin-bottom: 20px;
   }
+  hr {
+    color: $color-secondary-light;
+    background-color: $color-secondary-light;
+  }
   article {
     margin-bottom: 50px;
     flex-direction: column;
@@ -22,6 +26,20 @@
       order: 2;
       h2 {
         margin-top: 0;
+      }
+      button {
+        background-color: $color-secondary;
+        color: $text-color-soft;
+        padding: 5px 8px 5px 8px;
+        border: 2px solid transparent;
+        border-radius: 3px;
+      }
+      button:hover {
+        background-color: $color-primary;
+        color: $color-secondary;
+        padding: 5px 8px 5px 8px;
+        border: 2px solid $color-secondary;
+        border-radius: 3px;
       }
     }
   }

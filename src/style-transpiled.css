@@ -300,6 +300,10 @@ main .main__container section {
 .projects__container .main__subtitle {
   margin-bottom: 20px;
 }
+.projects__container hr {
+  color: #303030;
+  background-color: #303030;
+}
 .projects__container article {
   margin-bottom: 50px;
   flex-direction: column;
@@ -316,6 +320,20 @@ main .main__container section {
 }
 .projects__container article .project__description h2 {
   margin-top: 0;
+}
+.projects__container article .project__description button {
+  background-color: #141414;
+  color: #cfcfcf;
+  padding: 5px 8px 5px 8px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+}
+.projects__container article .project__description button:hover {
+  background-color: #ffc600;
+  color: #141414;
+  padding: 5px 8px 5px 8px;
+  border: 2px solid #141414;
+  border-radius: 3px;
 }
 
 .img-left {
