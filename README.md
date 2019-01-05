@@ -18,8 +18,10 @@ Enjoy your path to master React-Fu!
 
 ## Setup:
 
-1. The first time you work on these, run `npm install` in the console to download all the dependencies
+1. Download this repo locally: `https://github.com/luismartinezs/react-katas.git`
+1. The first time you work on these, run `npm install` in your console to download all the dependencies
 2. In the file /src/index.js, change line 4 according to what you're working on
+3. Use `npm start` to visualize the user interface in your browser
 
 ## Generate the CSS file
 
@@ -34,6 +36,6 @@ If have any trouble, please open an issue in github: [https://github.com/luismar
 
 ## Author
 
-I am pretty new to the development world, only started learning a few months ago, so forgive me if the code itself here is not according to best practices, or you find it is not professional code.
+I am pretty new to the development world, only started learning a few months ago, so forgive me if the code itself here is not according to best practices, or you find it is not up to professional standards.
 
 Luis Martínez @ 2019
