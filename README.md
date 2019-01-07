@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+NOTE: This project is on hold for some time, the reason being that I just got hired and for the new job I need to learn Vue.js (from scratch). I will relocate and move to a new country. Once things settle down a bit (when spring comes, I hope), I'll evaluate if I have time to work on this again.
+
 # React Katas
 
 ![Image](./src/images/bruce_lee_kicking_ass.jpg)
@@ -36,7 +38,7 @@ This will NOT be useful to you if you are a complete beginner to React. If you w
 - The project is work in progress, however the current folders inside the katas folder are ready for anyone to train.
 
 - At the moment, I plan to add katas for the following, more or less in this order:
-  - [Windowing](https://reactjs.org/docs/optimizing-performance.html#virtualize-long-lists)
+  - [Windowing](https://reactjs.org/docs/optimizing-performance.html#virtualize-long-lists) - DONE
   - Embedded React
   - [Portals](https://reactjs.org/docs/portals.html) and [Refs](https://reactjs.org/docs/glossary.html#refs)
   - [Render props](https://reactjs.org/docs/render-props.html)
