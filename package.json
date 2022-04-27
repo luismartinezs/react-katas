@@ -30,7 +30,7 @@
   "main": "Gruntfile.js",
   "devDependencies": {
     "dom-testing-library": "^3.16.3",
-    "grunt": "^1.0.3",
+    "grunt": "^1.5.2",
     "react-testing-library": "^5.4.3"
   },
   "author": "",
