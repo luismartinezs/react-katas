@@ -1,3 +1,5 @@
+NOTE: This project is discontinued.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 NOTE: This project is on hold for some time, the reason being that I just got hired and for the new job I need to learn Vue.js (from scratch). I will relocate and move to a new country. Once things settle down a bit (when spring comes, I hope), I'll evaluate if I have time to work on this again.
