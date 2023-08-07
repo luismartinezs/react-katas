@@ -1,4 +1,4 @@
-NOTE: This project is discontinued.
+IMPORTANT: Please don't use this project, it uses old React classes instead of React Hooks
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
